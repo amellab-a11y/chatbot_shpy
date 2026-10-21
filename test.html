@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test chatbot Shopypharma</title>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+  <h1>Page de test du chatbot</h1>
+  <p>Clique sur la bulle en bas à droite.</p>
+
+  <script>
+    window.SHOPY_CHAT = {
+      // Colle ici l'URL de PRODUCTION du Chat Trigger (elle se termine par /chat)
+      webhookUrl: 'https://vps-4af99332.vps.ovh.net/webhook/e0d71c1d-0768-46fa-9932-3bb84016fa21/chat'
+    };
+  </script>
+  <script src="shopypharma-chat.js"></script>
+</body>
+</html>
